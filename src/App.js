@@ -1,13 +1,11 @@
 import React from "react";
+
 import Button from "./Components/Button";
 import Menu from "./Components/Menu";
 import TextBox from "./Components/TextBox";
 import ApiExample from "./Components/ApiExample";
 
-
 import "./App.css";
-
-
 
 const App = () => {
   const textBoxTitle = "Text Box Title";

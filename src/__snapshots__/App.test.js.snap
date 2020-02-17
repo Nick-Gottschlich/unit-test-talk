@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unit tests for the app container unit tesson lesson 11: snapshots 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "height": "50px",
+            "width": "200px",
+          }
+        }
+      >
+        unToggled
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "height": "50px",
+            "width": "200px",
+          }
+        }
+      >
+        unToggled
+      </button>
+    </div>
+    <ul>
+      <li>
+        Item 1
+      </li>
+      <li>
+        Item 2
+      </li>
+    </ul>
+    <div
+      style={
+        Object {
+          "marginBottom": "10px",
+        }
+      }
+    >
+      <div
+        onClick={[Function]}
+        style={
+          Object {
+            "border": "1px solid purple",
+            "color": "pink",
+          }
+        }
+      >
+        <h1>
+          Text Box Title
+        </h1>
+        <h2>
+          Text Box Subtitle
+        </h2>
+        <ul>
+          <li>
+            item1
+          </li>
+          <li>
+            item2
+          </li>
+          <li>
+            item3
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "border": "1px solid gold",
+          "color": "cyan",
+        }
+      }
+    >
+      <div>
+        <button
+          className="apiObjectButton"
+          onClick={[Function]}
+        >
+          Api Example! Click me!
+        </button>
+      </div>
+      <div>
+        <span
+          className="apiObjectTitle"
+        />
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`unit tests for the app container unit tesson lesson 12: shallow snapshots 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div>
+      <Button
+        toggled="toggled"
+        unToggled="unToggled"
+      />
+      <Button
+        toggled="toggled"
+        unToggled="unToggled"
+      />
+    </div>
+    <Menu>
+      <MenuItem>
+        Item 1
+      </MenuItem>
+      <MenuItem>
+        Item 2
+      </MenuItem>
+    </Menu>
+    <div
+      style={
+        Object {
+          "marginBottom": "10px",
+        }
+      }
+    >
+      <TextBox
+        handleClick={[Function]}
+        options={
+          Array [
+            Object {
+              "displayName": "item1",
+              "key": "i1",
+            },
+            Object {
+              "displayName": "item2",
+              "key": "i2",
+            },
+            Object {
+              "displayName": "item3",
+              "key": "i3",
+            },
+          ]
+        }
+        subtitle="Text Box Subtitle"
+        title="Text Box Title"
+      />
+    </div>
+    <TextBox />
+  </header>
+</div>
+`;

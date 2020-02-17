@@ -16,7 +16,7 @@ describe("unit tests are as cute as a button", () => {
     wrapper = shallow(<Button {...props} />);
   });
 
-  xit("unit test lesson 4: click that button", () => {
+  xit("unit test lesson 5: click that button", () => {
     console.log(wrapper.debug());
 
     expect(wrapper.text()).toEqual(props.unToggled);
@@ -28,7 +28,7 @@ describe("unit tests are as cute as a button", () => {
     expect(wrapper.text()).toEqual(props.toggled);
   });
 
-  xit("unit test lesson 5: those clicks don't carry! [because of beforeEach]", () => {
+  xit("unit test lesson 6: those clicks don't carry! [because of beforeEach]", () => {
     console.log(wrapper.debug());
   });
 });

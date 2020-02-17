@@ -37,7 +37,7 @@ describe("<Textbox />", () => {
     wrapper = shallow(<TextBox {...props} />);
   });
 
-  xit("title should match prop passed in", () => {
+  xit("lesson 7: mocking all the props", () => {
     console.log(wrapper.debug());
 
     const title = wrapper.find("h1");
@@ -51,7 +51,7 @@ describe("<Textbox />", () => {
     expect(title.text()).toBe(mockTitle);
   })
 
-  xit("change props example", () => {
+  xit("lesson 8: how to change props in a test", () => {
     let emptyOptions = [];
 
     wrapper.setProps({
@@ -61,7 +61,7 @@ describe("<Textbox />", () => {
     console.log(wrapper.debug());
   })
 
-  xit("check if handle click gets called", () => {
+  xit("lesson 9: mock functions and .not", () => {
     expect(mockFn).not.toHaveBeenCalled();
 
     wrapper.simulate("click");

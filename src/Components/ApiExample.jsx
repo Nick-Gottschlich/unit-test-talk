@@ -20,11 +20,6 @@ const TextBox = () => {
     apiFetch();
   }
 
-  React.useEffect(() => {
-    apiFetch();
-  }, []);
-
-
   return (
     <div style={{ color: "cyan", border: "1px solid gold" }}>
       <div>

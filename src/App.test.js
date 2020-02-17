@@ -1,6 +1,7 @@
-/* eslint-disable no-unused-expressions */
 import React from "react";
 import { shallow, mount } from "enzyme";
+import renderer from 'react-test-renderer';
+import ShallowRenderer from 'react-test-renderer/shallow'
 
 import App from "./App";
 import Menu from "./Components/Menu";
@@ -57,7 +58,16 @@ describe("unit tests for the app container", () => {
     // Finally!
   })
 
-  xit("unit tesson lesson bonus: snapshot shallow", () => {
-    //add this in
+  it("unit tesson lesson 11: snapshots", () => {
+    const tree = renderer
+      .create(<App/>)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  })
+
+  it("unit tesson lesson 12: shallow snapshots", () => {
+    const renderer = new ShallowRenderer()
+    const result = renderer.render(<App />)
+    expect(result).toMatchSnapshot()
   })
 });

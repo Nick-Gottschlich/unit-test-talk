@@ -13,7 +13,7 @@ describe("<ApiExample />", () => {
     wrapper = shallow(<ApiExample />);
   });
 
-  it("mock that api request!", () => {
+  xit("unit test lesson 10: mock that api request!", () => {
     mockAxios.get.mockImplementationOnce(() =>
       Promise.resolve(
         { data: { title: "Fake Title" } }
