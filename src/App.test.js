@@ -58,14 +58,14 @@ describe("unit tests for the app container", () => {
     // Finally!
   })
 
-  it("unit tesson lesson 11: snapshots", () => {
+  xit("unit tesson lesson 11: snapshots", () => {
     const tree = renderer
       .create(<App/>)
       .toJSON();
     expect(tree).toMatchSnapshot();
   })
 
-  it("unit tesson lesson 12: shallow snapshots", () => {
+  xit("unit tesson lesson 12: shallow snapshots", () => {
     const renderer = new ShallowRenderer()
     const result = renderer.render(<App />)
     expect(result).toMatchSnapshot()
