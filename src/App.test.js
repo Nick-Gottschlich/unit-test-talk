@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import React from "react";
 import { shallow, mount } from "enzyme";
 import renderer from 'react-test-renderer';
@@ -7,11 +8,11 @@ import App from "./App";
 import Menu from "./Components/Menu";
 
 describe("unit tests for the app container", () => {
-  let wrapper;
-
   xit("unit test lesson 1: true should be truthy... right?", () => {
     expect(true).toBeTruthy();
   });
+
+  let wrapper;
 
   xit("unit test lesson 2: don't be so shallow (or do)", () => {
     wrapper = shallow(<App />);

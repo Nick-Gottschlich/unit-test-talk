@@ -2,7 +2,7 @@
 import * as React from "react";
 import axios from "axios";
 
-const TextBox = () => {
+const ApiExample = () => {
   const [apiData, setApiData] = React.useState({});
 
   // Api contained within component, or it goes off to a file
@@ -36,4 +36,4 @@ const TextBox = () => {
   );
 };
 
-export default TextBox;
+export default ApiExample;

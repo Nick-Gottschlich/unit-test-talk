@@ -54,9 +54,7 @@ describe("<Textbox />", () => {
   xit("lesson 8: how to change props in a test", () => {
     let emptyOptions = [];
 
-    wrapper.setProps({
-      options: emptyOptions 
-    })
+    wrapper.setProps({ options: emptyOptions })
 
     console.log(wrapper.debug());
   })

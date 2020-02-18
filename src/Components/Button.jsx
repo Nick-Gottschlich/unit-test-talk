@@ -10,7 +10,10 @@ const Button = props => {
   };
 
   return (
-    <button style={{ height: "50px", width: "200px" }} onClick={handleClick}>
+    <button 
+      style={{ height: "50px", width: "200px" }} 
+      onClick={handleClick}
+    >
       {buttonText}
     </button>
   );

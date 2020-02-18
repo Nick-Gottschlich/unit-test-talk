@@ -14,7 +14,7 @@ describe("<ApiExample />", () => {
   });
 
   xit("unit test lesson 10: mock that api request!", () => {
-    mockAxios.get.mockImplementationOnce(() =>
+    mockAxios.get.mockImplementation(() =>
       Promise.resolve(
         { data: { title: "Fake Title" } }
       )
@@ -27,5 +27,8 @@ describe("<ApiExample />", () => {
     expect(mockAxios.get).toHaveBeenCalledWith(
       `https://jsonplaceholder.typicode.com/todos/1`
     )
+
+    // button.simulate("click");
+    // expect(mockAxios.get).toHaveBeenCalledTimes(1);
   })
 })

@@ -154,7 +154,7 @@ exports[`unit tests for the app container unit tesson lesson 12: shallow snapsho
         title="Text Box Title"
       />
     </div>
-    <TextBox />
+    <ApiExample />
   </header>
 </div>
 `;
