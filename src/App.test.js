@@ -22,7 +22,7 @@ describe("unit tests for the app container", () => {
 
     wrapper = mount(<App />);
 
-    console.log('MOUNT: ', wrapper.debug());
+    // console.log('MOUNT: ', wrapper.debug());
   });
 
   xit("unit test lesson 3: find those buttons!", () => {
