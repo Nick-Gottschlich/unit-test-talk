@@ -9,7 +9,7 @@ import Menu from "./Components/Menu";
 
 describe("unit tests for the app container", () => {
   xit("unit test lesson 1: true should be truthy... right?", () => {
-    expect(true).toBeTruthy();
+    expect(true).toBeTruthy;
   });
 
   let wrapper;
