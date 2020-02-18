@@ -20,7 +20,7 @@ const mockOptions = [
 
 const mockTitle = "Mock Title";
 
-const mockFn = jest.fn();
+const mockFn = jest.fn(); // similar to `() => {}`
 
 const props = {
   title: mockTitle,

@@ -24,9 +24,9 @@ describe("<ApiExample />", () => {
     button.simulate("click");
 
     expect(mockAxios.get).toHaveBeenCalledTimes(1);
-    expect(mockAxios.get).toHaveBeenCalledWith(
-      `https://jsonplaceholder.typicode.com/todos/1`
-    )
+    // expect(mockAxios.get).toHaveBeenCalledWith(
+    //   `https://jsonplaceholder.typicode.com/todos/1`
+    // )
 
     // button.simulate("click");
     // expect(mockAxios.get).toHaveBeenCalledTimes(1);
